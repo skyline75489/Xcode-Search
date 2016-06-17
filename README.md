@@ -17,4 +17,10 @@ Usage
 7. Select your code
 8. Choose menu `Editor > Search`
 
-**Notice：**Currently the Source Editor Extension is not very stable. You may find that the command is sometimes not available(grayed out).
+**Notice：**Currently the Source Editor Extension feature in Xcode 8 Beta is not very stable. You may find that the command is sometimes not showing, or not available(grayed out).
+
+TODO
+====
+
+* Multiline selection support
+* More external sources for searching
