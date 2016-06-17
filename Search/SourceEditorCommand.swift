@@ -42,8 +42,6 @@ enum SearchEngine {
 
 class SourceEditorCommand: NSObject, XCSourceEditorCommand {
 
-    let googleSearchURLPrefix = "https://www.google.com/search?q="
-
     func perform(with invocation: XCSourceEditorCommandInvocation, completionHandler: (NSError?) -> Void ) -> Void {
         guard let selection = invocation.buffer.selections.firstObject as? XCSourceTextRange else {
             completionHandler(NSError(domain: "Search", code: 0, userInfo: [NSLocalizedDescriptionKey: "Invalid Selection"]))
