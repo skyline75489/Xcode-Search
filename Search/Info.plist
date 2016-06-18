@@ -50,6 +50,14 @@
 					<key>XCSourceEditorCommandClassName</key>
 					<string>$(PRODUCT_MODULE_NAME).SourceEditorCommand</string>
 					<key>XCSourceEditorCommandIdentifier</key>
+					<string>com.byskyline.Xcode-Search.Search.SourceEditorCommand.Github</string>
+					<key>XCSourceEditorCommandName</key>
+					<string>Github</string>
+				</dict>
+				<dict>
+					<key>XCSourceEditorCommandClassName</key>
+					<string>$(PRODUCT_MODULE_NAME).SourceEditorCommand</string>
+					<key>XCSourceEditorCommandIdentifier</key>
 					<string>com.byskyline.Xcode-Search.Search.SourceEditorCommand.Dash</string>
 					<key>XCSourceEditorCommandName</key>
 					<string>Dash</string>

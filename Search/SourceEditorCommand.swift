@@ -10,7 +10,7 @@ import Cocoa
 import XcodeKit
 
 enum SearchEngine {
-    case Google, StackOverflow, Dash
+    case Google, StackOverflow, Github, Dash
     init(identifier:String) {
         let searchType = identifier.components(separatedBy: ".").last!
         switch searchType {
@@ -18,6 +18,8 @@ enum SearchEngine {
             self = .Google
         case "StackOverflow":
             self = .StackOverflow
+        case "Github":
+            self = .Github
         case "Dash":
             self = .Dash
         default:
@@ -31,6 +33,8 @@ enum SearchEngine {
             return "https://www.google.com/search?q="
         case .StackOverflow:
             return "https://stackoverflow.com/search?q="
+        case .Github:
+            return "https://github.com/search?utf8=✓&q="
         case .Dash:
             return "dash://"
         }
