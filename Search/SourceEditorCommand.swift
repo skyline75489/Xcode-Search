@@ -34,7 +34,7 @@ enum SearchEngine {
         case .StackOverflow:
             return "https://stackoverflow.com/search?q="
         case .Github:
-            return "https://github.com/search?utf8=✓&q="
+            return "https://github.com/search?q="
         case .Dash:
             return "dash://"
         }
